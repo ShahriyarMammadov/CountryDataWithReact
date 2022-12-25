@@ -1,0 +1,36 @@
+span {
+    display: flex;
+}
+
+.chakra-input {
+    margin-left: 6% !important;
+    margin-top: 2%;
+}
+
+.searchFilterBar {
+    padding: 0 6%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cards {
+    padding: 0 5%;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    img {
+        width: 280px;
+        height: 180px;
+    }
+
+    .chakra-progress__indicator {
+        margin-top: 450px;
+        top: 0px;
+    }
+}

@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FFFFFF;
+    padding: 2% 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid grey;
+
+    h1 {
+        font-weight: 800;
+        font-size: 24px;
+        color: #FFFFFF;
+    }
+
+    .darkMode {
+
+        button,
+        img {
+            margin: 0 5px;
+            cursor: pointer;
+            color: #FFFFFF;
+            font-weight: 600;
+            font-size: 16px;
+            background-color: transparent;
+            border: none;
+        }
+    }
+}
+
+.dark {
+    transition: all 2s;
+
+    .chakra-card {
+        .border {
+            button {
+                transition: all 2s;
+            }
+        }
+    }
+    header {
+        transition: all 2s;
+        background-color: #2B3844;
+        border-bottom: none;
+    }
+
+    background-color: #202C36;
+    color: #fff;
+
+    .chakra-card__body {
+        transition: all 2s;
+        cursor: pointer;
+        color: #fff;
+        background-color: #2B3844;
+    }
+
+    .options {
+        color: #FFFFFF;
+        background-color: #2B3844;
+    }
+}
+
+.light {
+    transition: all 2s;
+    background-color: #F2F2F2;
+    color: #333;
+
+    .chakra-card {
+        .border {
+            button {
+                transition: all 2s;
+                background-color: #FFFFFF;
+            }
+        }
+    }
+
+    .chakra-input,
+    .chakra-select {
+        background-color: #FFFFFF;
+    }
+
+    header {
+        transition: all 2s;
+
+        h1 {
+            color: #111517;
+            font-weight: 800;
+            font-size: 24px;
+        }
+
+        button {
+            img {
+                color: #111517;
+            }
+
+            color: #111517;
+        }
+    }
+
+    .chakra-card__body {
+        cursor: pointer;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+}

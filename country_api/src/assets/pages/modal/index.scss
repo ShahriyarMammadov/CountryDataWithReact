@@ -1,0 +1,50 @@
+.backButton {
+    margin: 2% 6%;
+}
+
+
+.chakra-card {
+    padding: 0 6%;
+    font-weight: 600;
+    border: none;
+
+    @media only screen and (max-width: 1332px) {
+        flex-direction: column !important;
+    }
+
+    .cardImg {
+        width: 600px;
+        height: 483px;
+        background-color: #2B3844;
+    }
+
+    .name {
+        margin-left: 40px;
+    }
+
+    .top {
+        margin-left: 40px;
+        margin-top: 23px;
+        display: flex;
+        gap: 130px;
+    }
+
+    .region {
+        margin-left: 40px;
+    }
+
+    .border {
+        span {
+            display: flex;
+            gap: 80px;
+        }
+
+        margin-left: 40px;
+
+        button {
+            padding: 8px 18px;
+            background-color: #202C36;
+            margin-left: 8px;
+        }
+    }
+}
