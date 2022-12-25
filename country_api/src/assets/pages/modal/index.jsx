@@ -16,7 +16,6 @@ const ModalPage = () => {
                 setModalData(data)
             })
     }, [])
-    console.log(ModalData)
 
     return (
         <div className='kart'>
